@@ -14,20 +14,20 @@ namespace Practica2
 			double producto3 = double.Parse(Console.ReadLine());
 			
 		 	double IVA = 0.16, total1, total2, total3;
-        	double PrecioTotal;
+        			double PrecioTotal;
 
-	        total1 = producto1 * IVA + producto1;
-		    total2 = producto2 * IVA + producto2;  
-	        total3 = producto3 * IVA + producto3;
+	        		total1 = producto1 * IVA + producto1;
+		    	total2 = producto2 * IVA + producto2;  
+	        		total3 = producto3 * IVA + producto3;
 
-	        PrecioTotal = total1 + total2 + total3;
+	        		PrecioTotal = total1 + total2 + total3;
 	        
-	      	Console.WriteLine("\nProducto 1 + IVA = " + total1);
+	      		Console.WriteLine("\nProducto 1 + IVA = " + total1);
 			Console.WriteLine("\nProducto 2 + IVA = " + total2);
-	        Console.WriteLine("\nProducto 3 + IVA = " + total3);
-	        Console.WriteLine("\nTotal = " + PrecioTotal);
+	        		Console.WriteLine("\nProducto 3 + IVA = " + total3);
+	        		Console.WriteLine("\nTotal = " + PrecioTotal);
 			
-	        /*Segunda practica
+	       		/*Segunda practica
 			  3 de Marzo del 2014.
 			  Clase de programación III 
 			  Uso del ReadLine y WriteLine */
